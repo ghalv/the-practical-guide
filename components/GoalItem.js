@@ -10,4 +10,14 @@ function GoalItem() {
 
 export default GoalItem;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  goalItem: {
+	margin: 8,
+	padding: 8,
+	borderRadius: 6,
+	backgroundColor: '#00263e',
+  },
+  goalText: {
+	color: 'white',
+  }
+});
